@@ -1,0 +1,51 @@
+/* Styling for today section */
+#today .card { 
+    border: 2px solid lightblue;
+}
+
+#today .card-title {
+    background-color: #007bff;
+    color: white;
+    margin: 0px;
+    padding-left: 1.25rem;
+}
+
+#today .card-body {
+    font-size: 1.25em;
+
+}
+
+/* Styling for today section */
+#forecast-header {
+    padding-left: 1.25rem;
+    margin-top: 15px;
+}
+
+#forecast .card {
+    padding: 0px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid lightblue;
+}
+
+#forecast .card-title {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 1.25em;
+ }
+
+#forecast .card-body {
+    padding-top: 0px;
+    font-size: 16px;
+}
+
+/* Search history styling */
+#clear-button, #search-header {
+    display: none;
+}
+
+#clear-button {
+    margin-top: 15px;
+}
